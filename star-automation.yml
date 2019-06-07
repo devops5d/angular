@@ -20,7 +20,7 @@ projects:
       commands:
         - apk update && apk add git
         - CHECKOUT
-        - cd npm install
+        - npm install
       to-start:
         - ./node_modules/.bin/ng serve --host 0.0.0.0
       service:
