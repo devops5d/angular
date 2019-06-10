@@ -1,4 +1,4 @@
-export const baseURL = 'http://192.168.50.175:8003/';
+export const baseURL = 'http://35.200.221.45:8000/';
 
 // Get ApiURL
 export function GetApiurl(path: string) {
