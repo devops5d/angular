@@ -1,5 +1,5 @@
 {
-  "ame": "devops-demo",
+  "name": "devops-demo",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -50,6 +50,6 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "ypescript": "~3.4.3"
+    "typescript": "~3.4.3"
   }
 }
