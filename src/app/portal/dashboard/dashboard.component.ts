@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { DashboardService } from '../../services/dashboard.service';
 import { Tree, TreeNode } from 'primeng/primeng';
 import { Http } from '@angular/http';
-
+import { BrowserModule } from '@angular/platform-browser11';
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
