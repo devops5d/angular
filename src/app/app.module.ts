@@ -10,7 +10,7 @@ import { AUTH_PROVIDERS, AuthConfig, AuthHttp } from 'angular2-jwt';
 @NgModule({
   providers: [AUTH_PROVIDERS],
   imports: [
-    BrowserModule,
+    BrowserModul,
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
