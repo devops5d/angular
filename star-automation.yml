@@ -4,7 +4,7 @@ stages:
 build:
   stage: Building & migration
   commands:
-     - npm instal
+     - npm install
 
 pre-build:
   script:
