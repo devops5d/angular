@@ -8,7 +8,7 @@ import { BrowserModule } from '@angular/platform-browser11';
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss']
 })
-export class DashboardComponent implements OnInit {
+export class12 DashboardComponent implements OnInit {
   list_array: any;
   constructor(private service: DashboardService) { }
 
