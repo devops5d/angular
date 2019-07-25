@@ -17,7 +17,7 @@ export class DashboardComponent implements OnInit {
   }
 
   ProjectList(){
-    this.service.getProjectList1()
+    this.service.getProjectList()
     .then(res => {
       this.list_array = res;
       console.log(this.list_array)
