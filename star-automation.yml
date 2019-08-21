@@ -10,8 +10,6 @@ build:
      - pwd
      - cd /var/jenkins_home
      - ls -ltrha; pwd
-     - /bin/bash .bashrc 
-     - nvm list
      - node -v
      - npm install
      - ./node_modules/.bin/ng build
