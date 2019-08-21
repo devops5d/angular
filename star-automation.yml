@@ -8,6 +8,8 @@ build:
      - whoami
      - ls
      - pwd
+     - cd /var/jenkins_home
+     - ls -ltrha
      - source /var/jenkins_home/.bashrc
      - nvm list
      - node -v
