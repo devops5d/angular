@@ -8,6 +8,7 @@ build:
      - whoami
      - ls
      - pwd
+     - source /var/jenkins_home/.bashrc
      - nvm list
      - node -v
      - npm install
