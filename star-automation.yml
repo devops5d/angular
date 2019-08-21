@@ -4,7 +4,10 @@ stages:
 build:
   stage: Building & migration
   commands:
+     - id
+     - whoami
      - ls
+     - pwd
      - nvm list
      - node -v
      - npm install
