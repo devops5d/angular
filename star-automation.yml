@@ -9,8 +9,8 @@ build:
      - ls
      - pwd
      - cd /var/jenkins_home
-     - ls -ltrha
-     - source /var/jenkins_home/.bashrc
+     - ls -ltrha; pwd
+     - /bin/bash .bashrc 
      - nvm list
      - node -v
      - npm install
