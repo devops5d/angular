@@ -27,3 +27,5 @@ projects:
       service:
         - name: devops-angular
           port: 4200
+      host:
+        - name: devops-demo.starsystems.in
