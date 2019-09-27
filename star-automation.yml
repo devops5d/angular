@@ -27,6 +27,3 @@ projects:
       service:
         - name: devops-angular
           port: 4200
-      mount_path:
-        - /src/assets/img1
-        - /src/assets/img2
