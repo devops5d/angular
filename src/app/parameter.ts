@@ -1,4 +1,4 @@
-export const baseURL = 'http://35.200.221.45:8000/';
+export const baseURL = 'http://devops-demobck.starsystems.in/';
 
 // Get ApiURL
 export function GetApiurl(path: string) {
