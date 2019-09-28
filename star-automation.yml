@@ -4,8 +4,7 @@ stages:
 build:
   stage: Building & migration
   commands:
-     - npm install
-     - ./node_modules/.bin/ng build
+     - ls
 
 pre-build:
   script:
